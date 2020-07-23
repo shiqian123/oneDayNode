@@ -17,7 +17,7 @@
     "moment": "^2.13.0",
     "mongoose": "^4.5.3",
     "morgan": "~1.6.1",
-    "parse": "^1.9.0",
+    "parse": "^2.10.0",
     "parse-dashboard": "^1.0.15",
     "parse-server": "^2.2.16",
     "serve-favicon": "~2.3.0"
