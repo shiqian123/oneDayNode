@@ -78,12 +78,12 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-mongoose.Promise = global.Promise;
-mongoose.connect(config.db);
-const db = mongoose.connection;
-db.once('open', function () {
-  console.log('has been connected.', config.db);
-});
+// mongoose.Promise = global.Promise;
+// mongoose.connect(config.db);
+// const db = mongoose.connection;
+// db.once('open', function () {
+//   console.log('has been connected.', config.db);
+// });
 
 var server = app.listen(config.port, function () {
   console.log(11)

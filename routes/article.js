@@ -31,6 +31,24 @@ exports.loginOut = function (req,res,next) {
   res.json([{"shi":'shiqian'}])
 };
 //退出
+exports.access = function (req,res,next) {
+  res.json({
+    "data": true,
+    "return_code": "0000",
+
+    "message": "成功"
+})
+};
+// faceNumber
+exports.faceNumber = function (req,res,next) {
+  res.json({
+    "data": 5623,
+    "return_code": "0000",
+
+    "message": "成功"
+})
+};
+//退出
 exports.upload = function (req,res,next) {
   var form = new formidable.IncomingForm({keepExtensions:true});
   form.uploadDir = path.join(__dirname);

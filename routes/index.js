@@ -20,6 +20,9 @@ router.post('/updateMsg',article.updateMsg);
 router.post('/article',article.article);
 router.post('/delete',article.delete);
 router.get('/loginOut',article.loginOut);
+router.post('/access',article.access);
 router.post('/upload',article.upload);
+router.get('/faceNumber',article.faceNumber);
+
 
 module.exports = router;
